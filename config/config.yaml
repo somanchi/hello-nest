@@ -1,0 +1,11 @@
+app:
+  port: 4000
+db:
+  mongo:
+    database: nodeasync
+    host: localhost
+kafka:
+  default:
+    broker: localhost:9093
+    user: default-user
+    group: default-group
